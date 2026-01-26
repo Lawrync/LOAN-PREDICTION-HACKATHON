@@ -1,6 +1,6 @@
 # LOAN-PREDICTION-HACKATHON
 
-## 🏦 Project Objective: Loan Eligibility Prediction
+##  Project Objective: Loan Eligibility Prediction
 
 Dream Housing Finance Company provides home loans across **urban, semi-urban, and rural** regions. To improve operational efficiency and reduce manual processing time, the company aims to **automate the loan eligibility decision process in real time** using customer data submitted through online applications.
 
@@ -8,7 +8,7 @@ The goal of this project is to build a **machine learning–based classification
 
 ---
 
-## 📊 Problem Statement
+##  Problem Statement
 
 Loan eligibility assessment is traditionally a manual, time-consuming process that may be prone to inconsistencies. Automating this process enables the company to:
 
@@ -19,7 +19,7 @@ Loan eligibility assessment is traditionally a manual, time-consuming process th
 
 ---
 
-## 🧾 Input Features
+##  Input Features
 
 The model uses applicant details provided during the loan application process, including:
 
@@ -35,7 +35,7 @@ The model uses applicant details provided during the loan application process, i
 
 ---
 
-## 🎯 Target Variable
+##  Target Variable
 
 * **Loan_Status**
 
@@ -44,7 +44,7 @@ The model uses applicant details provided during the loan application process, i
 
 ---
 
-## ⚙️ Solution Approach
+##  Solution Approach
 
 * Data preprocessing and feature engineering
 * Handling class imbalance using **SMOTE**
@@ -55,7 +55,7 @@ The model uses applicant details provided during the loan application process, i
 
 ---
 
-## 🏆 Final Outcome
+##  Final Outcome
 
 A **Logistic Regression model** was selected as the final solution due to:
 
