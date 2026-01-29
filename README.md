@@ -1,23 +1,21 @@
 # LOAN-PREDICTION-HACKATHON
+ 
+ ## Introduction
+Dream Housing Finance Company needs a forecasting mechanism that will make or deny an application for a home loan. The current manual review process is not effective and can not be applied in a large-scale application. The challenge is to develop a machine learning classification system, which will be based on the previous loan history and attributes of the applicant, to carefully forecast the loan approval.
 
-##  Project Objective: Loan Eligibility Prediction
+## Problem Statement
+Dream Housing Finance Company needs a forecasting mechanism that will make or deny an application for a home loan. The current manual review process is not effective and can not be applied in a large-scale application. The challenge is to develop a machine learning classification system, which will be based on the previous loan history and attributes of the applicant, to carefully forecast the loan approval.
+## Objectives
+To build a machine learning model for predicting loan approval status.
 
-Dream Housing Finance Company provides home loans across **urban, semi-urban, and rural** regions. To improve operational efficiency and reduce manual processing time, the company aims to **automate the loan eligibility decision process in real time** using customer data submitted through online applications.
+To preprocess and transform customer data for effective modeling.
 
-The goal of this project is to build a **machine learning–based classification system** that predicts whether a customer is eligible for a home loan based on their demographic and financial information.
+To analyze the influence of applicant features on loan eligibility.
 
----
+To achieve reliable prediction accuracy on unseen test data.
 
-##  Problem Statement
+To support automated and scalable loan approval decisions.
 
-Loan eligibility assessment is traditionally a manual, time-consuming process that may be prone to inconsistencies. Automating this process enables the company to:
-
-* Reduce loan processing time
-* Improve decision consistency
-* Minimize human bias
-* Scale eligibility checks efficiently
-
----
 
 ##  Input Features
 
@@ -65,6 +63,5 @@ A **Logistic Regression model** was selected as the final solution due to:
 
 This model enables **real-time loan eligibility prediction**, helping Dream Housing Finance Company efficiently identify eligible applicants while maintaining fairness and explainability.
 
----
 
 

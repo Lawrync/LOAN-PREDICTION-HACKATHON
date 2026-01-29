@@ -16,7 +16,7 @@ jsonschema-specifications==2025.9.1
 MarkupSafe==3.0.3
 narwhals==2.15.0
 numpy==1.25.2
-packaging==23.1
+packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049096285/work
 pandas==2.3.3
 pillow==12.1.0
 protobuf==6.33.4
@@ -40,4 +40,3 @@ typing_extensions==4.15.0
 tzdata==2025.3
 urllib3==2.6.3
 watchdog==6.0.0
-
