@@ -1,3 +1,5 @@
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/0a0a5cb7-7abf-4f16-aa77-a60e0f3bc0fc" />
+
 # LOAN-PREDICTION-HACKATHON
  
  ## Introduction
