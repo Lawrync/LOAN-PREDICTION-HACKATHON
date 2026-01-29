@@ -44,11 +44,12 @@ The model uses applicant details provided during the loan application process, i
 
 most of the applicants are male ith 82% compared to 18.2% of females
 
-<img width="910" height="549" alt="image" src="https://github.com/user-attachments/assets/a1cc6b6c-aa1b-4314-a941-83fbd4314f9f" />
+<img width="910" height="539" alt="image" src="https://github.com/user-attachments/assets/a1cc6b6c-aa1b-4314-a941-83fbd4314f9f" />
 The applicant income distribution is highly right-skewed, with most applicants earning between 0 and 10,000. The mean (5,403) is noticeably higher than the median (3,812), indicating the presence of high-income outliers that stretch the distribution up to around 80,000–90,000. These extreme values could influence loan prediction models and may require preprocessing, such as capping or transformation.
-<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/8e675b56-d524-46e7-92a7-22f3be5de614" />
+
+<img width="910" height="539" alt="image" src="https://github.com/user-attachments/assets/8e675b56-d524-46e7-92a7-22f3be5de614" />
 The loan amount distribution is right-skewed, with most loans concentrated between 100 and 200, peaking around 120 and 150. The mean (145.75) is slightly higher than the median (128), indicating some higher-value loans stretching the distribution. A few upper outliers exist in the 500–700 range, but overall, the distribution is relatively controlled and more standardized compared to applicant income
-<img width="975" height="541" alt="image" src="https://github.com/user-attachments/assets/b8237c8f-4de7-47f6-9af9-e28bb841da5c" />
+<img width="910" height="531" alt="image" src="https://github.com/user-attachments/assets/b8237c8f-4de7-47f6-9af9-e28bb841da5c" />
 The loan term distribution is highly concentrated around 360 months, indicating that most applicants opt for a 30-year loan term. Other loan terms (like 120, 180, 240, 300, and 480 months) appear much less frequently, with very few applicants choosing these durations. This shows that lenders and borrowers strongly prefer the standard long-term option, while shorter or unusual terms are rare.
 <img width="865" height="686" alt="image" src="https://github.com/user-attachments/assets/c931a826-1197-4509-9fcc-45126bc41ebe" />
 The analysis shows that gender does not significantly affect loan approval. Although there are more male applicants than female applicants, both genders have similar approval rates (about 69% for males and 67% for females). This suggests that loan approval decisions are largely gender-neutral, and gender alone is not a key factor in determining loan status.
@@ -58,8 +59,8 @@ Education level appears to influence loan approval. Graduate applicants have a h
 Property area has an influence on loan approval. Semiurban applicants have the highest approval rate (about 77%), followed by urban areas (about 66%), while rural areas have the lowest approval rate (about 62%). This suggests that loans for semi-urban properties are more likely to be approved compared to urban and rural properties in this dataset.
 <img width="865" height="686" alt="image" src="https://github.com/user-attachments/assets/cd93cf6b-3d99-40ba-8ccb-aacc34724332" />
 Yes, but the effect is relatively modest. Approval rates range from about 65% to 75%, with applicants having 2 dependents showing the highest approval rate (~75%). Overall, the number of dependents has a minor impact on loan approval, and moderate family sizes may even be viewed slightly favorably.
-
-
+<img width="865" height="686" alt="image" src="https://github.com/user-attachments/assets/5f2ca66f-3113-4f05-b4c0-3e2611585e20" />
+Credit history is the most influential factor in loan approval across all property areas. Applicants with good credit history are approved in large numbers, whether they are from rural, semiurban, or urban areas. In contrast, those with poor or no credit history face high rejection rates regardless of location. While property area shows minor variations, it does not significantly affect outcomes when credit history is considered, highlighting that lenders prioritize creditworthiness over location in approval decisions
 
 
 
