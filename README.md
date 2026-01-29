@@ -41,8 +41,10 @@ The model uses applicant details provided during the loan application process, i
   * `0` → Loan Rejected
     ## Data Analysis 
 <img width="729" height="761" alt="image" src="https://github.com/user-attachments/assets/9c702a78-18df-465d-b9d0-4bcc67ed140e" />
+
 most of the applicants are male ith 82% compared to 18.2% of females
-<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/a1cc6b6c-aa1b-4314-a941-83fbd4314f9f" />
+
+<img width="910" height="549" alt="image" src="https://github.com/user-attachments/assets/a1cc6b6c-aa1b-4314-a941-83fbd4314f9f" />
 The applicant income distribution is highly right-skewed, with most applicants earning between 0 and 10,000. The mean (5,403) is noticeably higher than the median (3,812), indicating the presence of high-income outliers that stretch the distribution up to around 80,000–90,000. These extreme values could influence loan prediction models and may require preprocessing, such as capping or transformation.
 <img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/8e675b56-d524-46e7-92a7-22f3be5de614" />
 The loan amount distribution is right-skewed, with most loans concentrated between 100 and 200, peaking around 120 and 150. The mean (145.75) is slightly higher than the median (128), indicating some higher-value loans stretching the distribution. A few upper outliers exist in the 500–700 range, but overall, the distribution is relatively controlled and more standardized compared to applicant income
