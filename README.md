@@ -31,7 +31,7 @@ The model uses applicant details provided during the loan application process, i
 * Credit History
 * Property Area (Urban, Semi-urban, Rural)
 
----
+
 
 ##  Target Variable
 
@@ -40,7 +40,6 @@ The model uses applicant details provided during the loan application process, i
   * `1` → Loan Approved
   * `0` → Loan Rejected
     ## Data Analysis 
-# Univariate Analysis
 <img width="729" height="761" alt="image" src="https://github.com/user-attachments/assets/9c702a78-18df-465d-b9d0-4bcc67ed140e" />
 most of the applicants are male ith 82% compared to 18.2% of females
 <img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/a1cc6b6c-aa1b-4314-a941-83fbd4314f9f" />
@@ -53,6 +52,11 @@ The loan term distribution is highly concentrated around 360 months, indicating 
 The analysis shows that gender does not significantly affect loan approval. Although there are more male applicants than female applicants, both genders have similar approval rates (about 69% for males and 67% for females). This suggests that loan approval decisions are largely gender-neutral, and gender alone is not a key factor in determining loan status.
 <img width="865" height="686" alt="image" src="https://github.com/user-attachments/assets/e3a7bb5f-0fd4-42d8-bd73-93af76f109f9" />
 Education level appears to influence loan approval. Graduate applicants have a higher approval rate (about 71%) compared to non-graduates (about 61%). Although both groups receive more approvals than rejections, graduates are approved at a noticeably higher rate, suggesting that higher education may be associated with better loan approval outcomes in this dataset.
+<img width="865" height="686" alt="image" src="https://github.com/user-attachments/assets/99e382f4-7e06-47ee-8143-2f4aabd62995" />
+Property area has an influence on loan approval. Semiurban applicants have the highest approval rate (about 77%), followed by urban areas (about 66%), while rural areas have the lowest approval rate (about 62%). This suggests that loans for semi-urban properties are more likely to be approved compared to urban and rural properties in this dataset.
+<img width="865" height="686" alt="image" src="https://github.com/user-attachments/assets/cd93cf6b-3d99-40ba-8ccb-aacc34724332" />
+Yes, but the effect is relatively modest. Approval rates range from about 65% to 75%, with applicants having 2 dependents showing the highest approval rate (~75%). Overall, the number of dependents has a minor impact on loan approval, and moderate family sizes may even be viewed slightly favorably.
+
 
 
 
@@ -66,7 +70,20 @@ Education level appears to influence loan approval. Graduate applicants have a h
 * Model evaluation using **ROC-AUC, precision, recall, and F1-score**
 * Selection of an interpretable and high-performing final model
 
----
+Model	Data	Accurac y	Precision	Recal
+l	F1 Score	ROCAUC
+Logistic Regression	Original	0.862	0.840	0.988	0.908	0.851
+	SMOTE	0.854	0.845	0.965	0.901	0.793
+KNN	Original	0.837	0.828	0.965	0.891	0.759
+	SMOTE	0.569	0.742	0.576	0.649	0.600
+SVM	SMOTE	0.488	0.645	0.576	0.609	0.471
+Decision Tree	Original	0.732	0.851	0.741	0.792	0.726
+	SMOTE	0.732	0.851	0.741	0.792	0.726
+Random Forest	Original	0.829	0.848	0.918	0.881	0.779
+	SMOTE	0.821	0.846	0.906	0.875	0.779
+Gaussian Naive Bayes	Original	0.854	0.838	0.976	0.902	0.719
+	SMOTE	0.854	0.838	0.976	0.902	0.719
+
 
 ##  Final Outcome
 
